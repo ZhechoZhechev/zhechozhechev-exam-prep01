@@ -24,5 +24,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Dispaly SoftUni username
+      run: echo "ZhechoZhechev"
+      
     - name: Run unit tests
       run: npm run test:unit
